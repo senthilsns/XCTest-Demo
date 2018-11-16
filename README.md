@@ -1,5 +1,8 @@
 # XCTest-Demo
 
-// This project contains XCTest case and XCUITest case
+Platform : XCode 9.4
+Language : Swift 4.1
+
+// XCTest Sample
 
 
