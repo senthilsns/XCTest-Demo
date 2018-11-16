@@ -7,13 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D5FFA14219EC8A000B0B1C5 /* TestActivityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5FFA10219EC89F00B0B1C5 /* TestActivityManager.swift */; };
+		8D5FFA15219EC8A000B0B1C5 /* TestAlertManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5FFA11219EC89F00B0B1C5 /* TestAlertManager.swift */; };
+		8D5FFA1E219EC8B500B0B1C5 /* AlertManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5FFA1A219EC8B500B0B1C5 /* AlertManager.swift */; };
+		8D5FFA1F219EC8B500B0B1C5 /* ActivityIndicatorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5FFA1B219EC8B500B0B1C5 /* ActivityIndicatorManager.swift */; };
 		8D9FF5352108567800A0124E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D9FF5342108567800A0124E /* AppDelegate.swift */; };
 		8D9FF5372108567800A0124E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D9FF5362108567800A0124E /* ViewController.swift */; };
 		8D9FF53A2108567800A0124E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D9FF5382108567800A0124E /* Main.storyboard */; };
 		8D9FF53D2108567800A0124E /* TestO.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8D9FF53B2108567800A0124E /* TestO.xcdatamodeld */; };
 		8D9FF53F2108567B00A0124E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D9FF53E2108567B00A0124E /* Assets.xcassets */; };
 		8D9FF5422108567B00A0124E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D9FF5402108567B00A0124E /* LaunchScreen.storyboard */; };
-		8D9FF54D2108567B00A0124E /* TestOTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D9FF54C2108567B00A0124E /* TestOTests.swift */; };
 		8D9FF5582108567B00A0124E /* TestOUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D9FF5572108567B00A0124E /* TestOUITests.swift */; };
 /* End PBXBuildFile section */
 
@@ -35,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8D5FFA10219EC89F00B0B1C5 /* TestActivityManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestActivityManager.swift; sourceTree = "<group>"; };
+		8D5FFA11219EC89F00B0B1C5 /* TestAlertManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestAlertManager.swift; sourceTree = "<group>"; };
+		8D5FFA1A219EC8B500B0B1C5 /* AlertManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertManager.swift; sourceTree = "<group>"; };
+		8D5FFA1B219EC8B500B0B1C5 /* ActivityIndicatorManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorManager.swift; sourceTree = "<group>"; };
 		8D9FF5312108567800A0124E /* TestO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestO.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D9FF5342108567800A0124E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8D9FF5362108567800A0124E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -44,7 +51,6 @@
 		8D9FF5412108567B00A0124E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8D9FF5432108567B00A0124E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D9FF5482108567B00A0124E /* TestOTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestOTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8D9FF54C2108567B00A0124E /* TestOTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestOTests.swift; sourceTree = "<group>"; };
 		8D9FF54E2108567B00A0124E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D9FF5532108567B00A0124E /* TestOUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestOUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D9FF5572108567B00A0124E /* TestOUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestOUITests.swift; sourceTree = "<group>"; };
@@ -76,6 +82,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8D5FFA17219EC8B500B0B1C5 /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+				8D5FFA1A219EC8B500B0B1C5 /* AlertManager.swift */,
+				8D5FFA1B219EC8B500B0B1C5 /* ActivityIndicatorManager.swift */,
+			);
+			path = Misc;
+			sourceTree = "<group>";
+		};
 		8D9FF5282108567800A0124E = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +114,7 @@
 		8D9FF5332108567800A0124E /* TestO */ = {
 			isa = PBXGroup;
 			children = (
+				8D5FFA17219EC8B500B0B1C5 /* Misc */,
 				8D9FF5342108567800A0124E /* AppDelegate.swift */,
 				8D9FF5362108567800A0124E /* ViewController.swift */,
 				8D9FF5382108567800A0124E /* Main.storyboard */,
@@ -113,7 +129,8 @@
 		8D9FF54B2108567B00A0124E /* TestOTests */ = {
 			isa = PBXGroup;
 			children = (
-				8D9FF54C2108567B00A0124E /* TestOTests.swift */,
+				8D5FFA10219EC89F00B0B1C5 /* TestActivityManager.swift */,
+				8D5FFA11219EC89F00B0B1C5 /* TestAlertManager.swift */,
 				8D9FF54E2108567B00A0124E /* Info.plist */,
 			);
 			path = TestOTests;
@@ -261,6 +278,8 @@
 			files = (
 				8D9FF53D2108567800A0124E /* TestO.xcdatamodeld in Sources */,
 				8D9FF5372108567800A0124E /* ViewController.swift in Sources */,
+				8D5FFA1F219EC8B500B0B1C5 /* ActivityIndicatorManager.swift in Sources */,
+				8D5FFA1E219EC8B500B0B1C5 /* AlertManager.swift in Sources */,
 				8D9FF5352108567800A0124E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,7 +288,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D9FF54D2108567B00A0124E /* TestOTests.swift in Sources */,
+				8D5FFA15219EC8A000B0B1C5 /* TestAlertManager.swift in Sources */,
+				8D5FFA14219EC8A000B0B1C5 /* TestActivityManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,7 +387,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -421,7 +441,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -434,16 +454,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = TestO/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.cricut.TestO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -451,16 +474,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = TestO/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.cricut.TestO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

@@ -1,9 +1,9 @@
 //
 //  AlertManager.swift
-//  Cricut
+//  Test
 //
 //  Created by Senthilkumar K on 7/3/18.
-//  Copyright © 2018 Oottru Technologies. All rights reserved.
+//  Copyright © 2018 Personal. All rights reserved.
 //
 import UIKit
 
