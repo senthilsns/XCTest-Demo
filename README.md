@@ -7,7 +7,5 @@ Language : Swift 4.1
 Tool     : XCTest
 
 
-Test 
-
 Manager Classes
 
